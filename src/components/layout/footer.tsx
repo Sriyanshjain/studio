@@ -15,7 +15,7 @@ export default function Footer() {
             <Linkedin className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="https://leetcode.com/u/sriyanshjain/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+          <Link href="https://leetcode.com/u/sriyanshjain1997/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <TerminalSquare className="h-6 w-6" />
             <span className="sr-only">LeetCode</span>
           </Link>

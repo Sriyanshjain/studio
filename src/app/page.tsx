@@ -4,7 +4,6 @@ import HeroSection from '@/components/sections/hero-section';
 import ProjectsSection from '@/components/sections/projects-section';
 import SocialLinksSection from '@/components/sections/social-links-section';
 import ContactSection from '@/components/sections/contact-section';
-import FeedbackSummarizerSection from '@/components/sections/feedback-summarizer-section';
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
         <HeroSection />
         <ProjectsSection />
         <SocialLinksSection />
-        <FeedbackSummarizerSection />
         <ContactSection />
       </main>
       <Footer />
