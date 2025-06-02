@@ -12,7 +12,15 @@ export default function HeroSection() {
       <div className="container relative z-10 mx-auto px-4 text-center">
         <div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg animate-slide-in-from-bottom animation-delay-300ms">
-            Hi, I&apos;m <span className="text-primary-light hover:text-accent cursor-pointer inline-block group">Sriyansh Jain <span className="inline-block opacity-0 group-hover:opacity-100 transition-opacity duration-300">✨</span></span>
+            <span className="shine" style={{
+              position: 'relative',
+              overflow: 'hidden',
+              background: 'linear-gradient(to right, transparent, white, transparent)',
+              backgroundSize: '200% 100%',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
+              animation: 'shine 3s linear infinite',
+            }}>Hi, I&apos;m <span className="text-primary-light hover:text-accent cursor-pointer inline-block group">Sriyansh Jain <span className="inline-block opacity-0 group-hover:opacity-100 transition-opacity duration-300">✨</span></span></span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto animate-slide-in-from-bottom animation-delay-500ms">
             A passionate Full Stack Developer specializing in creating modern, responsive, and user-friendly web applications. I love turning ideas into reality with code.
