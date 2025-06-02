@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/sriyanshjainleet',
+    url: 'https://github.com/sriyanshjain',
     icon: Github,
     ariaLabel: 'Sriyansh Jain on GitHub',
   },
