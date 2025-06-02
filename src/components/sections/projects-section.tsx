@@ -62,7 +62,7 @@ export default function ProjectsSection() {
                 <CardDescription className="text-muted-foreground mb-4 h-20 overflow-y-auto">{project.description}</CardDescription>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <Badge key={tag} variant="secondary" className="bg-accent/20 text-accent-foreground hover:bg-accent/30">{tag}</Badge>
+                    <Badge key={tag} variant="secondary" className="bg-accent/80 text-accent-foreground hover:bg-accent">{tag}</Badge>
                   ))}
                 </div>
               </CardContent>
