@@ -5,19 +5,19 @@ import { Button } from '@/components/ui/button';
 const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/sriyanshjain-official',
+    url: 'https://github.com/sriyanshjainleet',
     icon: Github,
     ariaLabel: 'Sriyansh Jain on GitHub',
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/sriyanshjain',
+    url: 'https://www.linkedin.com/in/sriyansh-jain-35b876157/',
     icon: Linkedin,
     ariaLabel: 'Sriyansh Jain on LinkedIn',
   },
   {
     name: 'LeetCode',
-    url: 'https://leetcode.com/u/sriyanshjain/',
+    url: 'https://leetcode.com/u/sriyanshjain1997/',
     icon: TerminalSquare,
     ariaLabel: 'Sriyansh Jain on LeetCode',
   },

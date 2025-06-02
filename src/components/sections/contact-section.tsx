@@ -19,8 +19,8 @@ export default function ContactSection() {
               </p>
               <div className="flex items-center justify-center space-x-3 text-lg">
                 <Mail className="h-6 w-6 text-primary" />
-                <Link href="mailto:sriyanshjain.official@gmail.com" className="hover:text-primary transition-colors">
-                  sriyanshjain.official@gmail.com
+                <Link href="mailto:sriyanshjain1997@gmail.com" className="hover:text-primary transition-colors">
+                  sriyanshjain1997@gmail.com
                 </Link>
               </div>
                {/* Optional: Add Phone and Location if desired by user. For now, focusing on email.
@@ -35,7 +35,7 @@ export default function ContactSection() {
               */}
               <div className="pt-4">
                 <Button size="lg" asChild className="transition-transform hover:scale-105">
-                  <Link href="mailto:sriyanshjain.official@gmail.com">Send an Email</Link>
+                  <Link href="mailto:sriyanshjain1997@gmail.com">Send an Email</Link>
                 </Button>
               </div>
             </CardContent>
